@@ -1,0 +1,80 @@
+/*google fonts, get embed code, @import, e copiar font family*/
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(brown, #5d383e);
+    height: 100vh;
+}
+
+.container{
+    margin:16px;
+    border: 2px solid pink;
+    width: 400px;
+    background-color:white;
+    border-radius: 5%;
+}
+
+.propriedades-imagem{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+img{
+    width:100px;
+    height:100px;
+    border: 2px solid pink;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px;
+}
+
+ul a:hover{
+    fill: brown;
+    transition-duration: 200ms;
+}
+
+.buttons a{
+    background-color: #5d383e;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    background-color: brown;
+    transition-duration: 200ms;
+}
