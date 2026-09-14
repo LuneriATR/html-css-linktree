@@ -38,11 +38,7 @@ img{
     background-color: brown;
 }
 
-h1{
-    text-align: center;
-}
-
-h6{
+.text-align{
     text-align: center;
 }
 
@@ -53,7 +49,7 @@ ul{
     margin: 16px;
 }
 
-.buttons{
+.buttom{
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -65,7 +61,7 @@ ul a:hover{
     transition-duration: 200ms;
 }
 
-.buttons a{
+.buttom a{
     background-color: #5d383e;
     color: white;
     text-align: center;
@@ -74,7 +70,11 @@ ul a:hover{
     text-decoration: none;
 }
 
-.buttons a:hover{
+.buttom a:hover{
     background-color: brown;
     transition-duration: 200ms;
+}
+
+.font-size{
+    font-size: 16px;
 }
